@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-04</title>
+</head>
+<body>
+   <h1>Principais formatações</h1>
+
+  <h2>Negrito/Destaque</h2>
+ <p>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não semântica)</p>    
+ <p>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica) </p>
+
+ <h1>Itálico / Enfâse</h1>
+ <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</p>     
+ <p>Nestafrase vamos entrar com uma palavra em <EM>itálico</EM> (com semântica)</p>
+
+<h1>Texto Marcador</h1>
+<p>Nesta frase vamos entrar com uma palavra com destaque <mark> de marcador de texto usando mark </mark> </p>
+<p>Nesta frase vamos entrar com uma palavra com destaque <mark style="background-color: green;"> de marcador de texto usando mark </mark>
+
+<h1>Texto inserido</h1>
+<p>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase </p>
+
+<h1>Texto deletado</h1>
+<p>Neste parágrafo vamos trabalhar com um texto <del>que foi excluido da frase</del> forma semântica</p>
+
+<h1>Texto inserido</h1>
+<p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica</p>
+<p>Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semântica</p>
+
+<h1>Texto sobrescrito</h1>
+<p>vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup>+ bx + c = 0 usando a tag sup</p>
+
+<h1>Texto Subescrito</h1>
+<p>vamo demonstrar o texto subescrito com a fórmula da água H<sub>2</sub>O</p>
+
+<h1>Trecho de código fonte</h1>
+
+<code>
+ <pre>def equacao_segundo_grau(a, b, c):
+    if a == 0:
+        return "Não é uma equação de segundo grau."
+
+    delta = b**2 - 4*a*c
+
+    if delta < 0:
+        return "A equação não possui raízes reais."
+    
+    x1 = (-b + math.sqrt(delta)) / (2*a)
+    x2 = (-b - math.sqrt(delta)) / (2*a)
+
+    return x1, x2
+ </pre>
+ </code>
+
+<h1>Citações (quotation) simples</h1>
+<p>Segundo Friedrich Wilhelm Nietzsche: 
+    <q>Loucura</q>
+<blockquote cite="https://www.citador.pt/frases/citacoes/a/friedrich-wilhelm-nietzsche"> Há sempre alguma loucura no amor. Mas há sempre um pouco de razão na loucura. </blockquote>
+</body>
+</html>
