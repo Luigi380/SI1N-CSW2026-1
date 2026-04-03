@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <hr />
+    <br />
+
+    <form action="" method="get">
+      <table border="1" style="border-collapse: collapse">
+        <thead>
+          <tr>
+            <td style="padding: 5px"><label for="nome">Nome:</label></td>
+            <td style="padding: 5px">
+              <input
+                type="text"
+                name="nome"
+                id=""
+                placeholder="Digite seu nome"
+                size="20"
+                maxlength="15"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px">
+              <label for="email">E-mail pessoal:</label>
+            </td>
+            <td style="padding: 5px">
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Digite seu email"
+                size="20"
+                maxlength="15"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px">
+              <label for="email">E-mail (patter):</label>
+            </td>
+            <td style="padding: 5px">
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Digite seu email com @"
+                size="20"
+                maxlength="15"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px"><label for="senha">Senha:</label></td>
+            <td style="padding: 5px">
+              <input
+                type="password"
+                name="senha"
+                id=""
+                placeholder="Digite sua senha"
+                size="20"
+                maxlength="15"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px"><label for="idade">Idade:</label></td>
+            <td style="padding: 5px">
+              <input type="text" name="idade" id="" size="5" maxlength="2" />
+            </td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td style="padding: 5px" colspan="2">
+              <label for="comentario">Deixe um comentário:</label> <br />
+              <textarea
+                name="comentario"
+                id=""
+                cols="50"
+                rows="5"
+                placeholder="Escreva aqui um comentário"
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px">
+              <label for="interesse">Material de interesse:</label> <br />
+              <input type="checkbox" name="back" id="" value="backend" />
+              Backend
+              <br />
+              <input type="checkbox" name="front" id="" value="frontend" />
+              FrontEnd
+              <br />
+              <input type="checkbox" name="full" id="" value="fullstack" />
+              FullStack
+            </td>
+
+            <td style="padding: 5px">
+              <label for="viagem">Tipo de Viagem:</label> <br />
+              <input
+                type="radio"
+                name="opcao"
+                id="opcao"
+                value="negocios"
+              />Negócios
+              <br />
+              <input type="radio" name="opcao" id="opcao" value="lazer" />Lazer
+              <br />
+              <input
+                type="radio"
+                name="opcao"
+                id="opcao"
+                value="turismo"
+              />Turismo
+              <br />
+              <input
+                type="radio"
+                name="opcao"
+                id="opcao"
+                value="academico"
+              />Acadêmico
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px">
+              <label for="esporte">Esporte Favorito</label>
+              <select name="esporte" id="" size="4">
+                <option value="futebol">Futebol</option>
+                <option value="basquete">Basquete</option>
+                <option value="volei">Vôlei</option>
+                <option value="tenis">Tênis</option>
+              </select>
+            </td>
+
+            <td style="padding: 5px">
+              <label for="investimentos">Investimentos</label>
+              <select name="investimentos" id="">
+                <optgroup>
+                  <option value="poupanca">Poupança</option>
+                  <option value="cdb">CDB</option>
+                  <option value="tesouro-direto">Tesouro Direto</option>
+                </optgroup>
+
+                <optgroup>
+                  <option value="fundo-imobiliario">Fundos Imobiliários</option>
+                  <option value="cdi">CDI</option>
+                  <option value="debentures">Debêntures</option>
+                </optgroup>
+
+                <optgroup>
+                  <option value="cripto">Criptomoedas</option>
+                  <option value="acoes">Ações</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px">
+              <label for="cor">Escolha uma cor:</label>
+              <input type="color" name="cor" id="" />
+            </td>
+
+            <td style="padding: 5px">
+              <label for="arquivo">Selecione um arquivo:</label>
+              <input type="file" name="arquivo" id="" />
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 5px" colspan="2">
+              <label for="envio">Data e Hora envio:</label>
+              <input type="datetime-local" name="envio" id="" />
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td style="padding: 5px"><button type="submit">Enviar</button></td>
+            <td style="padding: 5px"><button type="reset">Limpar</button></td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>
