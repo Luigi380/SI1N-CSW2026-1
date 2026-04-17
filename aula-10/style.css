@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(247, 244, 244);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  color: brown;
+}
+
+p {
+  color: blue;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
