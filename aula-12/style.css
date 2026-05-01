@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container {
+  text-align: center;
+  padding-top: 300px;
+}
+
+.atv {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+  background-color: #416e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #4a793e;
+}
+
+#btn {
+  width: 150px;
+  height: 65px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #37652e;
+  color: white;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: #4e926a;
+}
+
+.links {
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+  background-color: #cbd275;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 40px;
+  transition: background-color 0.2s ease;
+}
+
+.links:active {
+  background-color: #f4fa9c;
+}
+
+a::before {
+  content: "*";
+  color: rgb(126, 0, 0);
+}
+
+a::after {
+  content: "* \1F3B5";
+  color: rgb(126, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: gray;
+}
